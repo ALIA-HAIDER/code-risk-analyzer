@@ -4,4 +4,3 @@ then f5
 then on new window wait till it load then cntrl+shift+p
 then search code risk analyzer 
 thena mke any change in current file 
-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

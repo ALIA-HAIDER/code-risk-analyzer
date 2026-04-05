@@ -16,6 +16,10 @@
   "contributes": {
     "commands": [
       {
+        "command": "code-risk-analyzer.openPanel",
+        "title": "Open Code Risk Analyzer"
+      },
+      {
         "command": "code-risk-analyzer.helloWorld",
         "title": "Code Risk Analyzer: Check Current File"
       }
