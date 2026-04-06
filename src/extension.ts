@@ -336,6 +336,7 @@ class AnalyzerViewProvider implements vscode.WebviewViewProvider {
       }
 
       body {
+      max-width: 400px;
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', sans-serif;
         padding: 16px;
         color: var(--vscode-editor-foreground);
@@ -370,6 +371,7 @@ class AnalyzerViewProvider implements vscode.WebviewViewProvider {
       }
 
       .metrics-grid {
+      max-width: 400px;
         display: grid;
         grid-template-columns: 1fr;
         gap: 12px;
@@ -377,6 +379,7 @@ class AnalyzerViewProvider implements vscode.WebviewViewProvider {
       }
 
       .metric-card {
+      max-width: 300px;
         background: var(--vscode-editorWidget-background);
         border: 1px solid var(--vscode-editorWidget-border);
         border-radius: 6px;
